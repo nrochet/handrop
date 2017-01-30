@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B833083B1E3EE79F00CC8D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833083A1E3EE79F00CC8D4D /* AppDelegate.swift */; };
+		B833083D1E3EE79F00CC8D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833083C1E3EE79F00CC8D4D /* ViewController.swift */; };
+		B83308401E3EE79F00CC8D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B833083E1E3EE79F00CC8D4D /* Main.storyboard */; };
+		B83308421E3EE79F00CC8D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83308411E3EE79F00CC8D4D /* Assets.xcassets */; };
+		B83308451E3EE79F00CC8D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83308431E3EE79F00CC8D4D /* LaunchScreen.storyboard */; };
+		B83308501E3EE7A000CC8D4D /* HandropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833084F1E3EE7A000CC8D4D /* HandropTests.swift */; };
+		B833085B1E3EE7A000CC8D4D /* HandropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833085A1E3EE7A000CC8D4D /* HandropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B833084C1E3EE7A000CC8D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B833082F1E3EE79F00CC8D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83308361E3EE79F00CC8D4D;
+			remoteInfo = Handrop;
+		};
+		B83308571E3EE7A000CC8D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B833082F1E3EE79F00CC8D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83308361E3EE79F00CC8D4D;
+			remoteInfo = Handrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B83308371E3EE79F00CC8D4D /* Handrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B833083A1E3EE79F00CC8D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B833083C1E3EE79F00CC8D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B833083F1E3EE79F00CC8D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B83308411E3EE79F00CC8D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B83308441E3EE79F00CC8D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B83308461E3EE79F00CC8D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B833084B1E3EE7A000CC8D4D /* HandropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B833084F1E3EE7A000CC8D4D /* HandropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandropTests.swift; sourceTree = "<group>"; };
+		B83308511E3EE7A000CC8D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83308561E3EE7A000CC8D4D /* HandropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B833085A1E3EE7A000CC8D4D /* HandropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandropUITests.swift; sourceTree = "<group>"; };
+		B833085C1E3EE7A000CC8D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B83308341E3EE79F00CC8D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83308481E3EE7A000CC8D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83308531E3EE7A000CC8D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B833082E1E3EE79F00CC8D4D = {
+			isa = PBXGroup;
+			children = (
+				B83308391E3EE79F00CC8D4D /* Handrop */,
+				B833084E1E3EE7A000CC8D4D /* HandropTests */,
+				B83308591E3EE7A000CC8D4D /* HandropUITests */,
+				B83308381E3EE79F00CC8D4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B83308381E3EE79F00CC8D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B83308371E3EE79F00CC8D4D /* Handrop.app */,
+				B833084B1E3EE7A000CC8D4D /* HandropTests.xctest */,
+				B83308561E3EE7A000CC8D4D /* HandropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B83308391E3EE79F00CC8D4D /* Handrop */ = {
+			isa = PBXGroup;
+			children = (
+				B833083A1E3EE79F00CC8D4D /* AppDelegate.swift */,
+				B833083C1E3EE79F00CC8D4D /* ViewController.swift */,
+				B833083E1E3EE79F00CC8D4D /* Main.storyboard */,
+				B83308411E3EE79F00CC8D4D /* Assets.xcassets */,
+				B83308431E3EE79F00CC8D4D /* LaunchScreen.storyboard */,
+				B83308461E3EE79F00CC8D4D /* Info.plist */,
+			);
+			path = Handrop;
+			sourceTree = "<group>";
+		};
+		B833084E1E3EE7A000CC8D4D /* HandropTests */ = {
+			isa = PBXGroup;
+			children = (
+				B833084F1E3EE7A000CC8D4D /* HandropTests.swift */,
+				B83308511E3EE7A000CC8D4D /* Info.plist */,
+			);
+			path = HandropTests;
+			sourceTree = "<group>";
+		};
+		B83308591E3EE7A000CC8D4D /* HandropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B833085A1E3EE7A000CC8D4D /* HandropUITests.swift */,
+				B833085C1E3EE7A000CC8D4D /* Info.plist */,
+			);
+			path = HandropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B83308361E3EE79F00CC8D4D /* Handrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B833085F1E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "Handrop" */;
+			buildPhases = (
+				B83308331E3EE79F00CC8D4D /* Sources */,
+				B83308341E3EE79F00CC8D4D /* Frameworks */,
+				B83308351E3EE79F00CC8D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handrop;
+			productName = Handrop;
+			productReference = B83308371E3EE79F00CC8D4D /* Handrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B833084A1E3EE7A000CC8D4D /* HandropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83308621E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "HandropTests" */;
+			buildPhases = (
+				B83308471E3EE7A000CC8D4D /* Sources */,
+				B83308481E3EE7A000CC8D4D /* Frameworks */,
+				B83308491E3EE7A000CC8D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B833084D1E3EE7A000CC8D4D /* PBXTargetDependency */,
+			);
+			name = HandropTests;
+			productName = HandropTests;
+			productReference = B833084B1E3EE7A000CC8D4D /* HandropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B83308551E3EE7A000CC8D4D /* HandropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83308651E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "HandropUITests" */;
+			buildPhases = (
+				B83308521E3EE7A000CC8D4D /* Sources */,
+				B83308531E3EE7A000CC8D4D /* Frameworks */,
+				B83308541E3EE7A000CC8D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B83308581E3EE7A000CC8D4D /* PBXTargetDependency */,
+			);
+			name = HandropUITests;
+			productName = HandropUITests;
+			productReference = B83308561E3EE7A000CC8D4D /* HandropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B833082F1E3EE79F00CC8D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Niels Rochet";
+				TargetAttributes = {
+					B83308361E3EE79F00CC8D4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B833084A1E3EE7A000CC8D4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B83308361E3EE79F00CC8D4D;
+					};
+					B83308551E3EE7A000CC8D4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B83308361E3EE79F00CC8D4D;
+					};
+				};
+			};
+			buildConfigurationList = B83308321E3EE79F00CC8D4D /* Build configuration list for PBXProject "Handrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B833082E1E3EE79F00CC8D4D;
+			productRefGroup = B83308381E3EE79F00CC8D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83308361E3EE79F00CC8D4D /* Handrop */,
+				B833084A1E3EE7A000CC8D4D /* HandropTests */,
+				B83308551E3EE7A000CC8D4D /* HandropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B83308351E3EE79F00CC8D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83308451E3EE79F00CC8D4D /* LaunchScreen.storyboard in Resources */,
+				B83308421E3EE79F00CC8D4D /* Assets.xcassets in Resources */,
+				B83308401E3EE79F00CC8D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83308491E3EE7A000CC8D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83308541E3EE7A000CC8D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B83308331E3EE79F00CC8D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B833083D1E3EE79F00CC8D4D /* ViewController.swift in Sources */,
+				B833083B1E3EE79F00CC8D4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83308471E3EE7A000CC8D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83308501E3EE7A000CC8D4D /* HandropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83308521E3EE7A000CC8D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B833085B1E3EE7A000CC8D4D /* HandropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B833084D1E3EE7A000CC8D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B83308361E3EE79F00CC8D4D /* Handrop */;
+			targetProxy = B833084C1E3EE7A000CC8D4D /* PBXContainerItemProxy */;
+		};
+		B83308581E3EE7A000CC8D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B83308361E3EE79F00CC8D4D /* Handrop */;
+			targetProxy = B83308571E3EE7A000CC8D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B833083E1E3EE79F00CC8D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B833083F1E3EE79F00CC8D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B83308431E3EE79F00CC8D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83308441E3EE79F00CC8D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B833085D1E3EE7A000CC8D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B833085E1E3EE7A000CC8D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B83308601E3EE7A000CC8D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Handrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = niels.Handrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B83308611E3EE7A000CC8D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Handrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = niels.Handrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B83308631E3EE7A000CC8D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HandropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = niels.HandropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handrop.app/Handrop";
+			};
+			name = Debug;
+		};
+		B83308641E3EE7A000CC8D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HandropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = niels.HandropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handrop.app/Handrop";
+			};
+			name = Release;
+		};
+		B83308661E3EE7A000CC8D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HandropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = niels.HandropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Handrop;
+			};
+			name = Debug;
+		};
+		B83308671E3EE7A000CC8D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HandropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = niels.HandropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Handrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B83308321E3EE79F00CC8D4D /* Build configuration list for PBXProject "Handrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B833085D1E3EE7A000CC8D4D /* Debug */,
+				B833085E1E3EE7A000CC8D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B833085F1E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "Handrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83308601E3EE7A000CC8D4D /* Debug */,
+				B83308611E3EE7A000CC8D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B83308621E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "HandropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83308631E3EE7A000CC8D4D /* Debug */,
+				B83308641E3EE7A000CC8D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B83308651E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "HandropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83308661E3EE7A000CC8D4D /* Debug */,
+				B83308671E3EE7A000CC8D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B833082F1E3EE79F00CC8D4D /* Project object */;
+}

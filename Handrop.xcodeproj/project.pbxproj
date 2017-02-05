@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		B833083B1E3EE79F00CC8D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833083A1E3EE79F00CC8D4D /* AppDelegate.swift */; };
 		B833083D1E3EE79F00CC8D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833083C1E3EE79F00CC8D4D /* ViewController.swift */; };
-		B83308401E3EE79F00CC8D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B833083E1E3EE79F00CC8D4D /* Main.storyboard */; };
-		B83308421E3EE79F00CC8D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83308411E3EE79F00CC8D4D /* Assets.xcassets */; };
 		B83308451E3EE79F00CC8D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83308431E3EE79F00CC8D4D /* LaunchScreen.storyboard */; };
 		B83308501E3EE7A000CC8D4D /* HandropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833084F1E3EE7A000CC8D4D /* HandropTests.swift */; };
 		B833085B1E3EE7A000CC8D4D /* HandropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833085A1E3EE7A000CC8D4D /* HandropUITests.swift */; };
+		B86E9F2F1E47307C007B9B8E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86E9F2E1E47307C007B9B8E /* ViewController.xib */; };
+		B8A76D901E3F50A30081FC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A76D8F1E3F50A30081FC08 /* Assets.xcassets */; };
+		B8FABCD31E473B1600E20E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FABCD21E473B1600E20E0F /* Main.storyboard */; };
+		C10B21F4A55606C229D34520 /* libPods-Handrop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E901EA1E6015B41EE1F599 /* libPods-Handrop.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10E901EA1E6015B41EE1F599 /* libPods-Handrop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Handrop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40245D3AE4C4146401E64766 /* Pods-Handrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Handrop/Pods-Handrop.debug.xcconfig"; sourceTree = "<group>"; };
+		868E5ECD311E3F750D2DAC8A /* Pods-Handrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Handrop/Pods-Handrop.release.xcconfig"; sourceTree = "<group>"; };
 		B83308371E3EE79F00CC8D4D /* Handrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B833083A1E3EE79F00CC8D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B833083C1E3EE79F00CC8D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B833083F1E3EE79F00CC8D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B83308411E3EE79F00CC8D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83308441E3EE79F00CC8D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83308461E3EE79F00CC8D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B833084B1E3EE7A000CC8D4D /* HandropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,9 @@
 		B83308561E3EE7A000CC8D4D /* HandropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B833085A1E3EE7A000CC8D4D /* HandropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandropUITests.swift; sourceTree = "<group>"; };
 		B833085C1E3EE7A000CC8D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86E9F2E1E47307C007B9B8E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B8A76D8F1E3F50A30081FC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Icon Dog/Assets.xcassets"; sourceTree = "<group>"; };
+		B8FABCD21E473B1600E20E0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10B21F4A55606C229D34520 /* libPods-Handrop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A98F16B57021BBA81D232A42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40245D3AE4C4146401E64766 /* Pods-Handrop.debug.xcconfig */,
+				868E5ECD311E3F750D2DAC8A /* Pods-Handrop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B833082E1E3EE79F00CC8D4D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				B833084E1E3EE7A000CC8D4D /* HandropTests */,
 				B83308591E3EE7A000CC8D4D /* HandropUITests */,
 				B83308381E3EE79F00CC8D4D /* Products */,
+				A98F16B57021BBA81D232A42 /* Pods */,
+				E26EB64B0D22E70BB386B0EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +117,9 @@
 			children = (
 				B833083A1E3EE79F00CC8D4D /* AppDelegate.swift */,
 				B833083C1E3EE79F00CC8D4D /* ViewController.swift */,
-				B833083E1E3EE79F00CC8D4D /* Main.storyboard */,
-				B83308411E3EE79F00CC8D4D /* Assets.xcassets */,
+				B86E9F2E1E47307C007B9B8E /* ViewController.xib */,
+				B8FABCD21E473B1600E20E0F /* Main.storyboard */,
+				B8A76D8F1E3F50A30081FC08 /* Assets.xcassets */,
 				B83308431E3EE79F00CC8D4D /* LaunchScreen.storyboard */,
 				B83308461E3EE79F00CC8D4D /* Info.plist */,
 			);
@@ -125,6 +144,14 @@
 			path = HandropUITests;
 			sourceTree = "<group>";
 		};
+		E26EB64B0D22E70BB386B0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E901EA1E6015B41EE1F599 /* libPods-Handrop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B833085F1E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "Handrop" */;
 			buildPhases = (
+				CC88D5B993D09BFD33EAB405 /* [CP] Check Pods Manifest.lock */,
 				B83308331E3EE79F00CC8D4D /* Sources */,
 				B83308341E3EE79F00CC8D4D /* Frameworks */,
 				B83308351E3EE79F00CC8D4D /* Resources */,
+				1CBB0A71DD81B8C275A25CE2 /* [CP] Embed Pods Frameworks */,
+				1E8308C958008DD32C27F34E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83308451E3EE79F00CC8D4D /* LaunchScreen.storyboard in Resources */,
-				B83308421E3EE79F00CC8D4D /* Assets.xcassets in Resources */,
-				B83308401E3EE79F00CC8D4D /* Main.storyboard in Resources */,
+				B86E9F2F1E47307C007B9B8E /* ViewController.xib in Resources */,
+				B8A76D901E3F50A30081FC08 /* Assets.xcassets in Resources */,
+				B8FABCD31E473B1600E20E0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBB0A71DD81B8C275A25CE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Handrop/Pods-Handrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E8308C958008DD32C27F34E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Handrop/Pods-Handrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC88D5B993D09BFD33EAB405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B83308331E3EE79F00CC8D4D /* Sources */ = {
@@ -296,14 +375,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B833083E1E3EE79F00CC8D4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B833083F1E3EE79F00CC8D4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B83308431E3EE79F00CC8D4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +481,7 @@
 		};
 		B83308601E3EE7A000CC8D4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40245D3AE4C4146401E64766 /* Pods-Handrop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Handrop/Info.plist;
@@ -422,6 +494,7 @@
 		};
 		B83308611E3EE7A000CC8D4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868E5ECD311E3F750D2DAC8A /* Pods-Handrop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Handrop/Info.plist;
@@ -505,6 +578,7 @@
 				B83308611E3EE7A000CC8D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B83308621E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "HandropTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +587,7 @@
 				B83308641E3EE7A000CC8D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B83308651E3EE7A000CC8D4D /* Build configuration list for PBXNativeTarget "HandropUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +596,7 @@
 				B83308671E3EE7A000CC8D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
